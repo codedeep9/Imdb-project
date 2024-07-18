@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background-default {
+    background-color: '#000000';
+}
+
+.nav:hover {
+    background-color: #2c2c32;
+    border-radius: 8px;
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.icon {
+    width: 3rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    color: #b4b7ae;
+    height: 8rem;
+    /* border-bottom: 1px solid #555151;   */
+    padding: 20px;
+}
+
+tr {
+    background-color: #1a1a1a;
+    border: 1px solid #555151;
+}
+
+th {
+    background-color: #484545;
+    border: 1px solid #555151;
+}
+
+.watchlistTitle {
+    color: #647b9d;
+}
+
+.details-container {
+    margin: 20px;
+}
+
+.details-container p {
+    font-weight: 500;
+    font-size: medium;
+    color: #b4b7ae;
+}
+
+.details-container h1 {
+    font-weight: bold;
+}
+
+.details-container h2 {
+    color: #e8c44c;
+    font: bold;
+}
+.filterComponent{
+    margin:1rem;
+}
+.filterIcon{
+    color:#ffffff;
+    font-weight:600;
+}
+
+.details-container img:hover {
+    border: 1px solid #e8c44c;
+}
+
+.watchlistContainer {
+    min-height: 100vh;
+
+}
